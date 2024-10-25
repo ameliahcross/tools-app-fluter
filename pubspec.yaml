@@ -1,0 +1,36 @@
+name: tools_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  http: ^0.13.4
+  flutter:
+    sdk: flutter
+  url_launcher: any
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tools.png
+    - assets/adult.png
+    - assets/elderly.png
+    - assets/young.png
+    - assets/weather.png
+    - assets/foto.png
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path_android: "assets/foto.png"
+  image_path: "assets/foto.png"
